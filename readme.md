@@ -22,6 +22,7 @@ Raspberry Pi Pico code for a DIY flight controller for a quadcopter.
 3. Future featues
 	- Switch to much larger 6s batteries
 	- Impliment different capabilities.
+		- Use FreeRTOS to have a separate task for using the payload so I don't need another mico-controller.
 	- Partial autonomy
 		- Right pot selects the object to track with a rectangle around the object.
 			- When set to 0 it doesn't show rectangles and doesn't track.

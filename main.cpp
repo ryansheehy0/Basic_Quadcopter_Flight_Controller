@@ -108,7 +108,7 @@ int main() {
 		printf("%.12f\n", curAngles.pitch);
 		// Pitch controller range: -75 to 75
 
-		// Set motor outputs
+		// Set motor outputs/Motor mixing
 		// frontLeftMotor.setOutput( throttle - roll - pitch - yaw);
 		// frontRightMotor.setOutput(throttle + roll - pitch + yaw);
 		// backLeftMotor.setOutput(  throttle - roll + pitch + yaw);
