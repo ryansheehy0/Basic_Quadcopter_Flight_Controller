@@ -1,5 +1,5 @@
 # Basic Quadcopter Flight Controller
-STM32 Black Pill(stm32f411) code for a Basic quadcopter flight controller.
+STM32 Black Pill(stm32f411) code for a basic quadcopter flight controller.
 
 <!-- Image of drone -->
 <!-- Video of drone flying -->
