@@ -1,8 +1,8 @@
-# DIY Quadcopter Flight Controller
-Raspberry Pi Pico code for a DIY flight controller for a quadcopter.
+# Basic Quadcopter Flight Controller
+STM32 Black Pill(stm32f411) code for a Basic quadcopter flight controller.
 
-<!-- Image and video of drone -->
-<!-- Image of code diagram -->
+<!-- Image of drone -->
+<!-- Video of drone flying -->
 
 ## Future features
 1. Basic drone
