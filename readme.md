@@ -21,14 +21,16 @@ STM32 Black Pill(stm32f411) code for a basic quadcopter flight controller.
 
 3. Future featues
 	- Switch to much larger 6s batteries
+	- Gimbaled camera
 	- Impliment different capabilities.
-		- Use FreeRTOS to have a separate task for using the payload so I don't need another mico-controller.
 	- Partial autonomy
 		- Right pot selects the object to track with a rectangle around the object.
 			- When set to 0 it doesn't show rectangles and doesn't track.
 			- When you twist the right pot, it shows all the rectangles and highlights the one that's being currently tracked.
 			- You have to wait a little before it starts tracking.
 		- Left pot selects at what distance to track the object.
+	- Obstabled avoidance: Prevents you from hitting things.
+		- Power lines, trees, buildings, people.
 	- Custom device that quickly changes frequencies to get around jamming.
 		- Uses mosfets on an antena to change frequency.
 	- Drone swarm
@@ -36,7 +38,8 @@ STM32 Black Pill(stm32f411) code for a basic quadcopter flight controller.
 ## Capabilities
 - Cameras: Visible light, IR, Thermal
 - Drop a payload
-- Speaker and microphone
+- Speaker
+- Microphone
 - Powerful lights
 - Lidar for terrain mapping
 - Picking up things
